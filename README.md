@@ -13,3 +13,7 @@ To make it easy to edit this pack setup the pack with the following steps
 
 ## Setup Server
 Execute the build_server.command file in the pack. This will generate a server folder for you
+
+## Ideal JVM Configuration
+* You need Java 21 or higher, on Macos JDK 23 (from oracle) is recommended!
+* Set VM Arguments to `-XX:+UseG1GC -XX:MaxGCPauseMillis=20 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1HeapRegionSize=8m -XX:MaxHeapFreeRatio=40 -XX:G1ReservePercent=25 -XX:G1RSetUpdatingPauseTimePercent=10 -XX:G1MixedGCCountTarget=8 -XX:MaxTenuringThreshold=1 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true -Dsun.java2d.metal=false`

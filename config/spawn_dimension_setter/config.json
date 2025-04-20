@@ -1,0 +1,6 @@
+{
+    "dimension": "minecraft:overworld",
+    "safeCheck": true,
+    "rangeX": 10000,
+    "rangeZ": 10000
+}

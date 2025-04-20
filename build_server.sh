@@ -10,3 +10,4 @@ cp -a config/. server/config/
 cp -a scripts/. server/scripts/
 cp essential/config.toml server/essential/
 cp essential/onboarding.json server/essential/
+rm -rf server/mods/macos-input-fixes-1.8.jar

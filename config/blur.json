@@ -7,13 +7,13 @@
     "io.github.darkkronicle.advancedchatcore.chat.AdvancedChatScreen",
     "net.coderbot.iris.gui.screen.ShaderPackScreen"
   ],
-  "fadeTimeMillis": 200,
-  "fadeOutTimeMillis": 200,
+  "fadeTimeMillis": 100,
+  "fadeOutTimeMillis": 100,
   "ease": true,
-  "radius": 8,
+  "radius": 16,
   "gradientStart": "#000000",
-  "gradientStartAlpha": 75,
+  "gradientStartAlpha": 40,
   "gradientEnd": "#000000",
-  "gradientEndAlpha": 75,
+  "gradientEndAlpha": 100,
   "showScreenTitle": false
 }

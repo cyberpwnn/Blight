@@ -19,7 +19,7 @@ enableVanillaSlotHighlighting: true
 # Affects the easing speed, that is applied to the rotation of the floating item.
 floatingItemEasingSpeed: 1.65
 # Affects the rotation amplitude of the floating item.
-floatingItemRotationAmplitude: 3.0
+floatingItemRotationAmplitude: 0.6
 # Affects the speed of the hotbar selector.
 hotbarSelectorSpeed: 3.0
 # Affects the size of the hovered item.
@@ -29,6 +29,6 @@ matchingItemHoverAmplitude: 1.0
 # Moves the hotbar selector above the items. You might want to disable this, if you use resource packs that change the default selector texture.
 renderHotbarSelectorAboveItems: false
 # Screen shake amplitude.
-shakeAmplitude: 1.25
+shakeAmplitude: 1.45
 # Screen shake timer in ticks.
 shakeTimer: 8

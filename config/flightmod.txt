@@ -1,0 +1,14 @@
+version = 1
+enableFlying = true
+doFallDamage = true
+flyInWater = false
+flyInLava = false
+flyInSlowBlocks = false
+flyingCost = 0.025
+flyingHorizontalCost = 0.1
+flyingUpCost = 0.1
+foodLevelWarning = 6
+movementMode = full_speed
+compensateSideInertia = true
+airJumpFly = true
+sneakJumpDrop = true

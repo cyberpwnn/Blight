@@ -118,3 +118,9 @@ craftingTable.remove(<item:minecraft:bucket>);
 craftingTable.addShaped("xbucket", <item:minecraft:bucket>, [
     [<item:modern_industrialization:copper_double_ingot>, air, <item:modern_industrialization:copper_double_ingot>],
     [air, <item:modern_industrialization:iron_double_ingot>, air]]);
+
+craftingTable.remove(<item:malum:spirit_altar>);
+craftingTable.addShaped("xspirit_altar", <item:malum:spirit_altar>, [
+    [<item:minecraft:air>, <item:malum:processed_soulstone>, <item:minecraft:air>],
+    [<item:modern_industrialization:gold_double_ingot>, <item:malum:runewood_planks>, <item:modern_industrialization:gold_double_ingot>],
+    [<item:malum:runewood_planks>, <item:malum:runewood_planks>,<item:malum:runewood_planks>]]);

@@ -8,6 +8,12 @@ craftingTable.addShaped("added_crying_obsidian", <item:minecraft:crying_obsidian
     [<item:malum:wicked_spirit>, <item:minecraft:ender_pearl>, <item:malum:wicked_spirit>],
     [<item:minecraft:obsidian>, <item:malum:wicked_spirit>, <item:minecraft:obsidian>]]);
 
+craftingTable.addShaped("obs", <item:minecraft:obsidian>, [
+    [<item:compressed:cobblestone_i>, <item:compressed:cobblestone_i>, <item:compressed:cobblestone_i>],
+    [<item:compressed:cobblestone_i>, <item:malum:earthen_spirit>, <item:compressed:cobblestone_i>],
+    [<item:compressed:cobblestone_i>, <item:compressed:cobblestone_i>,<item:compressed:cobblestone_i>]]);
+
+
 // Recipe for sticks (QOL: Vanilla sticks are now 6 sticks per recipe instead of 4)
 craftingTable.remove(<item:minecraft:stick>);
 craftingTable.addShaped("tweaked_vanilla_sticks", <item:minecraft:stick> * 6, [

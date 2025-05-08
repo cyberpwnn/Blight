@@ -34,7 +34,7 @@ gamma:1.0
 renderDistance:3
 simulationDistance:5
 entityDistanceScaling:1.0
-guiScale:4
+guiScale:3
 particles:0
 maxFps:260
 graphicsMode:1
@@ -178,6 +178,18 @@ key_key.fbp.freeze_particles:key.keyboard.unknown
 key_key.fbp.kill_particles:key.keyboard.unknown
 key_key.fbp.add_to_blacklist:key.keyboard.unknown
 key_key.fbp.reload_config:key.keyboard.unknown
+key_key.boththrow.desc:key.mouse.right
+key_key.leftthrow.desc:key.keyboard.unknown
+key_key.rightthrow.desc:key.keyboard.unknown
+key_key.motoronoff.desc:key.keyboard.left.shift
+key_key.jumpanddetach.desc:key.keyboard.space
+key_key.slow.desc:key.keyboard.left.shift
+key_key.climb.desc:key.keyboard.left.shift
+key_key.climbup.desc:key.keyboard.unknown
+key_key.climbdown.desc:key.keyboard.unknown
+key_key.enderlaunch.desc:key.mouse.left
+key_key.rocket.desc:key.mouse.left
+key_key.slide.desc:key.keyboard.left.shift
 key_key.gravelminer.toggle:key.keyboard.unknown
 key_key.indrev.modular:key.keyboard.k
 key_key.indrev.gamer_axe_toggle:key.keyboard.g

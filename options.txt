@@ -202,7 +202,6 @@ key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details_alternative:key.keyboard.unknown
 key_key.modern_industrialization.activate:key.keyboard.v
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_key.observable.profile:key.keyboard.page.up
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
 key_key.tempad.shortcut:key.keyboard.b

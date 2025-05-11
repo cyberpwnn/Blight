@@ -1,0 +1,66 @@
+# 
+# ORE FAT
+# Rendering ore fat yield when not overridden in JSON
+# default: 1.333
+defaultOreFatRenderingYield = 1.333
+# Trommel ore fat yield when not overridden in JSON
+# default: 1.5
+defaultOreFatTrommelYield = 1.5
+# 
+# MOTORS
+# Maximum power that can be transferred by a basic motor (eJ/t)
+# default: 400
+basicMotorMaxPower = 400
+# Maximum power that can be transferred by an advanced motor (eJ/t)
+# default: 800
+advancedMotorMaxPower = 800
+# Maximum power that can be transferred by a large motor (eJ/t)
+# default: 2000
+largeMotorMaxPower = 2000
+# 
+# LARGE COMPRESSOR
+# Droplets per unit energy per tick (droplets/eJ/t)
+# default: 400
+largeCompressorPowerToDroplets = 400
+# 
+# CHARNEL PUMP
+# Minimum power required to run (eJ/t)
+# default: 500
+charnelPumpMinPower = 500
+# Air consumed per unit energy (droplets/eJ/t)
+# default: 100
+charnelPumpPowerToAir = 100
+# 
+# PYLON
+# Maximum angular speed of the Pylon (???)
+# default: 40.0
+pylonMaxSpeed = 40.0
+# Angular speed at which the Pylon begins working (???)
+# default: 16.0
+pylonRunningSpeed = 16.0
+# 
+# FEEDING TROUGH
+# Amount of feed used to breed two animals (droplets)
+# default: 13500
+troughUseAmount = 13500
+# Amount of animal feed added per gland potato (droplets)
+# default: 6750
+TROUGH_FEED_PER_ITEM = 6750
+# 
+# VERRUCOUS STONE
+# Energy generated per Verrucous Stone block per tick (eJ/t)
+# default: 10
+verrucousStonePassiveCoefficient = 10
+# 
+# LIVING MACHINES
+# Maximum number of blocks that can be part of a single living machine
+# default: 128
+livingMachineMaxBlocks = 128
+# 
+# POWER FLOWER
+# Energy generated per Power Flower surface block per tick (eJ/t)
+# default: 20
+powerFlowerSolarCoefficient = 20
+# Maximum number of blocks that can be part of a single Power Flower
+# default: 160
+powerFlowerMaxBlocks = 160

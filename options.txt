@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:3
+renderDistance:4
 simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:3
@@ -208,11 +208,6 @@ key_key.tempad.shortcut:key.keyboard.b
 key_key.tempad.favorite:key.keyboard.g
 key_toadlib.config.interpolation_overview:key.keyboard.unknown
 key_key.toms_storage.open_terminal:key.keyboard.left.bracket
-key_key.travelersbackpack.inventory:key.keyboard.b
-key_key.travelersbackpack.sort:key.keyboard.unknown
-key_key.travelersbackpack.ability:key.keyboard.unknown
-key_key.travelersbackpack.cycle_tool:key.keyboard.z
-key_key.travelersbackpack.toggle_tank:key.keyboard.n
 key_key.veinmining.activate.desc:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.f6

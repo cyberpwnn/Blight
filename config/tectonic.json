@@ -14,10 +14,10 @@
     // Vanilla value is -0.22
     "deep_ocean_depth": -0.45,
     // Lower values = thicker mountain ranges and more space between ranges
-    "erosion_scale": 0.25,
+    "erosion_scale": 0.8,
     // Vanilla value is -0.12
     "ocean_depth": -0.15,
     // Higher values = vertically stretched terrain
-    "vertical_multiplier": 1.125
+    "vertical_multiplier": 1.325
   }
 }

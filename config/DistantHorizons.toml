@@ -54,7 +54,7 @@ _version = 3
 		# When enabled on the client, this allows loading lower detail levels as needed to speed up terrain generation.
 		# This must also be enabled on the server; otherwise, it will have no effect.
 		# For better performance when switching LOD detail levels, enabling [upsampleLowerDetailLodsToFillHoles] is recommended.
-		enableNSizedGeneration = false
+		enableNSizedGeneration = true
 
 [common]
 
@@ -120,7 +120,7 @@ _version = 3
 		# Expected Compression Ratio: 0.14
 		# Estimated average DTO read speed: 11.89 ms
 		# Estimated average DTO write speed: 192.01 ms
-		dataCompression = "LZMA2"
+		dataCompression = "LZ4"
 		#
 		# Enabling this will drastically increase chunk processing time
 		# and you may need to increase your CPU load to handle it.
@@ -154,7 +154,7 @@ _version = 3
 			# Experimental:
 			# Enabling this option will increase CPU and harddrive use
 			# and may cause rendering bugs.
-			upsampleLowerDetailLodsToFillHoles = false
+			upsampleLowerDetailLodsToFillHoles = true
 
 	[common.multiThreading]
 		#
@@ -244,7 +244,7 @@ _version = 3
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "FEATURES"
+		distantGeneratorMode = "INTERNAL_SERVER"
 		#
 		# How should distant generator progress be displayed? 
 		# 
@@ -282,7 +282,7 @@ _version = 3
 			updateBranch = "AUTO"
 			#
 			# Automatically check for updates on game launch?
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			#
 			# Should Distant Horizons silently, automatically download and install new versions? 
 			# This setting is force disabled on dedicated servers for stability reasons.

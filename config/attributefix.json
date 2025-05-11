@@ -11,6 +11,17 @@
         "value": 2048
       }
     },
+    "hephaestusplus:carmot_shield": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additionalentityattributes:generic.lung_capacity": {
       "enabled": false,
       "min": {
@@ -132,6 +143,17 @@
         "value": 1024
       }
     },
+    "hexcasting:grid_zoom": {
+      "enabled": false,
+      "min": {
+        "default": 0.5,
+        "value": 0.5
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "affinity:player.max_aethum": {
       "enabled": false,
       "min": {
@@ -240,6 +262,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "hexcasting:scry_sight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:zombie.spawn_reinforcements": {

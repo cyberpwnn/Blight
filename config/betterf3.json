@@ -1,35 +1,11 @@
 {
 	"modules_left": [
 		{
-			"name": "minecraft",
-			"name_color": 10506797,
-			"value_color": 43520,
+			"name": "empty",
+			"empty_lines": 1,
 			"enabled": true,
 			"lines": {
-				"minecraft": true
-			}
-		}, 
-		{
-			"name": "fps",
-			"color_high": 5635925,
-			"color_med": 16777045,
-			"color_low": 16733525,
-			"enabled": true,
-			"lines": {
-				"fps": true
-			}
-		}, 
-		{
-			"name": "graphics",
-			"name_color": 16755200,
-			"value_color": 5636095,
-			"enabled": true,
-			"lines": {
-				"render_distance": true,
-				"graphics": true,
-				"clouds": true,
-				"biome_blend_radius": true,
-				"shader": true
+				"nothing": true
 			}
 		}, 
 		{
@@ -58,28 +34,6 @@
 			}
 		}, 
 		{
-			"name": "chunks",
-			"name_color": 43775,
-			"value_color": 16777045,
-			"chunks_enabled_color": 5635925,
-			"chunks_disabled_color": 16733525,
-			"total_chunks_color": 16755200,
-			"enabled": true,
-			"lines": {
-				"chunk_sections": true,
-				"chunk_culling": true,
-				"pending_chunks": true,
-				"pending_uploads": true,
-				"available_buffers": true,
-				"client_chunk_cache": true,
-				"loaded_chunks": true,
-				"loaded_chunks_server": true,
-				"forceloaded_chunks": true,
-				"spawn_chunks": true,
-				"chunk_file": true
-			}
-		}, 
-		{
 			"name": "location",
 			"name_color": 43520,
 			"value_color": 5636095,
@@ -87,43 +41,16 @@
 			"lines": {
 				"dimension": true,
 				"facing": true,
-				"rotation": true,
-				"light": true,
-				"light_server": true,
-				"highest_block": true,
-				"highest_block_server": true,
+				"rotation": false,
+				"light": false,
+				"light_server": false,
+				"highest_block": false,
+				"highest_block_server": false,
 				"biome": true,
-				"local_difficulty": true,
-				"day_ticks": true,
-				"days_played": true,
+				"local_difficulty": false,
+				"day_ticks": false,
+				"days_played": false,
 				"slime_chunk": true
-			}
-		}, 
-		{
-			"name": "entity",
-			"name_color": 16733525,
-			"value_color": 16777045,
-			"total_entities_color": 16755200,
-			"enabled": true,
-			"lines": {
-				"particles": true,
-				"entities": true,
-				"monster": true,
-				"creature": true,
-				"ambient": true,
-				"axolotls": true,
-				"underground_water_creature": true,
-				"water_creature": true,
-				"water_ambient": true,
-				"misc": true,
-				"aether_surface_monster": true,
-				"aether_darkness_monster": true,
-				"aether_sky_monster": true,
-				"aether_aerwhale": true,
-				"wilderwildfireflies": true,
-				"wilderwildjellyfish": true,
-				"wilderwildcrab": true,
-				"wilderwildtumbleweed": true
 			}
 		}, 
 		{
@@ -132,15 +59,6 @@
 			"enabled": true,
 			"lines": {
 				"nothing": true
-			}
-		}, 
-		{
-			"name": "miscleft",
-			"name_color": 16645526,
-			"value_color": 5636095,
-			"enabled": true,
-			"lines": {
-				"misc_left": true
 			}
 		}
 	],
@@ -153,26 +71,17 @@
 			"time_format": "HH:mm:ss",
 			"enabled": true,
 			"lines": {
-				"time": true,
-				"java_version": true,
+				"time": false,
+				"java_version": false,
 				"memory_usage": true,
 				"allocation_rate": true,
 				"allocated_memory": true,
-				"cpu": true,
-				"display": true,
-				"gpu": true,
+				"cpu": false,
+				"display": false,
+				"gpu": false,
 				"gpu_utilization": true,
-				"opengl_version": true,
-				"gpu_driver": true
-			}
-		}, 
-		{
-			"name": "miscright",
-			"name_color": 16645526,
-			"value_color": 5636095,
-			"enabled": true,
-			"lines": {
-				"misc_right": true
+				"opengl_version": false,
+				"gpu_driver": false
 			}
 		}, 
 		{
@@ -184,34 +93,24 @@
 			}
 		}, 
 		{
-			"name": "target",
-			"name_color": 43775,
-			"value_color": 16777045,
-			"enabled": true,
+			"name": "miscright",
+			"name_color": 16645526,
+			"value_color": 5636095,
+			"enabled": false,
 			"lines": {
-				"targeted_block": true,
-				"id_block": true,
-				"block_states": true,
-				"block_tags": true,
-				"nothing": true,
-				"targeted_fluid": true,
-				"id_fluid": true,
-				"fluid_states": true,
-				"fluid_tags": true,
-				"nothing2": true,
-				"targeted_entity": true
+				"misc_right": true
 			}
 		}
 	],
 	"general": {
 		"disable_mod": false,
 		"auto_start": false,
-		"space_modules": false,
-		"shadow_text": true,
+		"space_modules": true,
+		"shadow_text": false,
 		"animations": true,
-		"animationSpeed": 1.0,
+		"animationSpeed": 2.0,
 		"fontScale": 1.0,
-		"background_color": 1867534416,
+		"background_color": 1711276032,
 		"hide_debug_crosshair": false,
 		"hide_sidebar": true,
 		"hide_bossbar": true,

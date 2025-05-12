@@ -6,7 +6,7 @@ _version = 3
 	generationBoundsZ = 0
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 256
+	realTimeUpdateDistanceRadiusInChunks = 32
 	#
 	# Prefix of the level keys sent to the clients.
 	# If the mod is running behind a proxy, each backend should use a unique value.
@@ -32,11 +32,11 @@ _version = 3
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 20
+	generationRequestRateLimit = 3
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 50
+	syncOnLoadRateLimit = 5
 	#
 	# Defines the radius around the central point within which generation is allowed, in blocks. 
 	# If this value is set to 0, generation bounds are disabled.
@@ -44,7 +44,7 @@ _version = 3
 	#
 	# Maximum speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
-	maxDataTransferSpeed = 500
+	maxDataTransferSpeed = 100
 	#
 	# If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
 	enableRealTimeUpdates = true
@@ -96,7 +96,7 @@ _version = 3
 		# for already generated worlds, but is broken by most lighting mods. 
 		#  
 		# Set this to false if LODs are black.
-		pullLightingForPregeneratedChunks = false
+		pullLightingForPregeneratedChunks = true
 		#
 		# What algorithm should be used to compress new LOD data? 
 		# This setting will only affect new or updated LOD data, 
@@ -120,7 +120,7 @@ _version = 3
 		# Expected Compression Ratio: 0.14
 		# Estimated average DTO read speed: 11.89 ms
 		# Estimated average DTO write speed: 192.01 ms
-		dataCompression = "LZ4"
+		dataCompression = "LZMA2"
 		#
 		# Enabling this will drastically increase chunk processing time
 		# and you may need to increase your CPU load to handle it.
@@ -252,7 +252,7 @@ _version = 3
 		# CHAT 
 		# LOG 
 		# DISABLED
-		showGenerationProgress = "OVERLAY"
+		showGenerationProgress = "CHAT"
 		#
 		# How often should the distant generator progress be displayed?
 		generationProgressDisplayIntervalInSeconds = 2
@@ -528,7 +528,7 @@ _version = 3
 				noiseDropoff = 1024
 				#
 				# How many steps of noise should be applied to LODs?
-				noiseSteps = 4
+				noiseSteps = 8
 				#
 				# How intense should the noise should be?
 				noiseIntensity = "5.0"
@@ -624,7 +624,7 @@ _version = 3
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 64
 				#
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
@@ -635,7 +635,7 @@ _version = 3
 				# AS_GRASS: all sides of dirt LOD's render using the top (green) color. 
 				# FADE_TO_DIRT: sides fade from grass to dirt. 
 				# AS_DIRT: sides render entirely as dirt.
-				grassSideRendering = "AS_GRASS"
+				grassSideRendering = "FADE_TO_DIRT"
 				#
 				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
 				# 
@@ -646,7 +646,7 @@ _version = 3
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "LOWEST"
 				#
 				# How should LOD transparency be handled. 
 				# 

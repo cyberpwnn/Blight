@@ -1,10 +1,13 @@
 #priority 1000
+#nowarn
 
 import crafttweaker.api.recipe.replacement.Replacer;
 import crafttweaker.api.recipe.replacement.type.NameFilteringRule;
 import crafttweaker.api.recipe.replacement.type.ManagerFilteringRule;
 import crafttweaker.api.recipe.replacement.type.ComponentFilteringRule;
 import crafttweaker.api.recipe.replacement.type.ModsFilteringRule;
+import crafttweaker.api.recipe.replacement.type.NotFilteringRule;
+
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 
@@ -13,6 +16,9 @@ craftingTable.remove(<item:minecraft:piston>);
 
 Replacer.create()
     .filter(ManagerFilteringRule.of(<recipetype:minecraft:crafting>))
+    .filter(NotFilteringRule.of(
+        NameFilteringRule.regex("^minecraft:crafting_special_")
+    ))
     .replace<IIngredient>(
         <recipecomponent:crafttweaker:input/ingredients>,
         <item:minecraft:diamond> as IIngredient,          
@@ -28,6 +34,9 @@ craftingTable.addShaped("dblockfix", <item:minecraft:diamond_block>, [
 
 Replacer.create()
     .filter(ManagerFilteringRule.of(<recipetype:minecraft:crafting>))
+    .filter(NotFilteringRule.of(
+        NameFilteringRule.regex("^minecraft:crafting_special_")
+    ))
     .replace<IIngredient>(
         <recipecomponent:crafttweaker:input/ingredients>,
         <item:minecraft:gold_ingot> as IIngredient,          
@@ -47,6 +56,9 @@ craftingTable.addShapeless("agoldout", <item:minecraft:gold_nugget> * 14, [<item
 
 Replacer.create()
     .filter(ManagerFilteringRule.of(<recipetype:minecraft:crafting>))
+    .filter(NotFilteringRule.of(
+        NameFilteringRule.regex("^minecraft:crafting_special_")
+    ))
     .replace<IIngredient>(
         <recipecomponent:crafttweaker:input/ingredients>,
         <item:minecraft:iron_ingot> as IIngredient,          
@@ -69,6 +81,9 @@ craftingTable.addShapeless("irblfnug", <item:minecraft:iron_nugget> * 9, [ii]);
 
 Replacer.create()
     .filter(ManagerFilteringRule.of(<recipetype:minecraft:crafting>))
+    .filter(NotFilteringRule.of(
+        NameFilteringRule.regex("^minecraft:crafting_special_")
+    ))
     .replace<IIngredient>(
         <recipecomponent:crafttweaker:input/ingredients>,
         <item:minecraft:copper_ingot> as IIngredient,          

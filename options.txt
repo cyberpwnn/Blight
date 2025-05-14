@@ -31,12 +31,12 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:5
+renderDistance:3
 simulationDistance:5
 entityDistanceScaling:0.75
 guiScale:3
 particles:0
-maxFps:260
+maxFps:120
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0

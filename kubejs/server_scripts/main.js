@@ -23,6 +23,7 @@ LootJS.modifiers((event) => {
         .addLoot("minecraft:obsidian")
         .randomChance(0.35)
         .addLoot("minecraft:blaze_powder")
-        ;
+        .randomChance(0.2)
+        .addLoot("minecraft:elytra");
     }
 });
